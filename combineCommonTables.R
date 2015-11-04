@@ -1,5 +1,8 @@
 
-
+# ---NAME---
+# ---AUTHOR---
+# ---CREATED---
+# ---SUMMARY--- Extracts a specific column from multiple files and combines into one file.
 # ---TAG--- getopt
 # ---TAG--- general
 # ---TAG--- summarise

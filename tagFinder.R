@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# script to report the tags in scripts
+# ---SUMMARY--- report the tags in scripts
 
 
 # search a directory and report tags with counts
