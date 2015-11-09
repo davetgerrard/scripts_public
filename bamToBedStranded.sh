@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# ---TAG--- bam
+# ---TAG--- bed
+# ---TAG--- bioinformatics
+# ---TAG--- bedtools
+# ---TAG--- next-gen
+
 ###################################################
 #
 #       Dave Gerrard, University of Manchester

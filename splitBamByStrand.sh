@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# ---TAG--- bam
+# ---TAG--- bioinformatics
+# ---TAG--- next-gen
+# ---TAG--- samtools
+
 ###################################################
 #
 #       Dave Gerrard, University of Manchester
