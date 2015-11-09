@@ -10,7 +10,7 @@ To find scripts with specific tags use:-
 
 To generate the list of script summaries in SCRIPT_SUMMARY.txt, do:-
 
-	grep -e "---SUMMARY---" *.R | sed s/---SUMMARY---// > SCRIPT_SUMMARY.txt
+	grep -e "---SUMMARY---" * | sed s/---SUMMARY---// > SCRIPT_SUMMARY.txt
 
 
 
