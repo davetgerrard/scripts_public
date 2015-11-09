@@ -1,5 +1,6 @@
 bamToBedStranded.sh:#  Use bedtools bamToBed to make a bed12 file but force the strand attribute to a certain value.
 combineCommonTables.R:#  Extracts a specific column from multiple files and combines into one file.
+countFromBed12.sh:#  Use bedtools intersect to count overlaps between bed12 format read mappings and a set of regions (bed)
 README.md:	grep -e "" * | sed s/---SUMMARY---// > SCRIPT_SUMMARY.txt
 splitBamByStrand.sh:#  Use samtools to divide a bam file into FIRST (Watson) and SECOND (Crick) chromosomal strands.
 tagFinder.R:#  report the tags in scripts
