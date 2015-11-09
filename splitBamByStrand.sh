@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ---SUMMARY--- Use samtools to divide a bam file into FIRST (Watson) and SECOND (Crick) chromosomal strands.
+
 # ---TAG--- bam
 # ---TAG--- bioinformatics
 # ---TAG--- next-gen

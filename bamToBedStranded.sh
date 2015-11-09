@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ---SUMMARY--- Use bedtools bamToBed to make a bed12 file but force the strand attribute to a certain value.
+
 # ---TAG--- bam
 # ---TAG--- bed
 # ---TAG--- bioinformatics
