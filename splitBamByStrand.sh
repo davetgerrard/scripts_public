@@ -32,7 +32,7 @@ FIRST_FILE=$BASE.FIRST.sam
 FIRST_SORTED=$BASE.FIRST.sorted.sam
 # Allow through headers, take:  flag 80  (64 + 16) = first of pair AND rev-comp
 #				flag 128 (2nd of pair)  AND NOT 16 (NOT rev-comp)
-samtools view -h $F | gawk '{if(($1 ~ /^@/) || (and($2,80) == 80) || ((and($2,128) == 128) && (and($2,16) != 16))) print $0}' > $OUT_DIR/$FIRST_FILE
+samtools view -h $F | gawk 'BEGIN{OFS="\t";}{if(($1 ~ /^@/) || (and($2,80) == 80) || ((and($2,128) == 128) && (and($2,16) != 16))) print $0}' > $OUT_DIR/$FIRST_FILE
 #samtools view -H  $F > $OUT_DIR/$FIRST_FILE	# sam file requires header.
 #samtools view -f 80 $F >> $OUT_DIR/$FIRST_FILE
 #samtools view -f 128 -F 16 $F >> $OUT_DIR/$FIRST_FILE
